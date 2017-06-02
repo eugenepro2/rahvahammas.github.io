@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rahvahammas</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+    <link rel="stylesheet" href="css/tingle.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <section class="menu">
+      <div class="container">
+        <div class="row middle-xs">
+          <div class="col-xs-3">
+            <div class="logo"><img src="img/logo.png" alt="Logo"></div>
+          </div>
+          <div class="col-xs-8">
+            <nav>
+              <ul class="menu__list flex">
+                <li><a href="#">Avaleht</a></li>
+                <li><a href="#">Teenused</a></li>
+                <li><a href="#">Arstid</a></li>
+                <li><a href="#">Kindel hind</a></li>
+                <li><a href="#">Abi patsiendile</a></li>
+                <li><a href="#">Kontakt</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-xs-1">
+            <div class="menu__lang"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header class="header">
+      <div class="container">
+        <div class="row center-xs">
+          <div class="col-md-4">
+            <p class="header__text">Tallinn, Estonia Kotkapoja 2A</p>
+          </div>
+          <div class="col-md-4">
+            <p class="header__text">E-R 10:00 - 18:00</p>
+          </div>
+          <div class="col-md-4">
+            <p class="header__text">+372 555 12 370</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="offer">
+      <div class="container">
+        <div class="row middle-xs">
+          <div class="col-xs-4 center-xs"><img src="img/calendar.png" alt="Calendar" class="offer__image"></div>
+          <div class="col-xs-8">
+            <div class="row">
+              <div class="col-xs-12">
+                <h1 class="offer__heading"><span>Оnline booking</span> 24/7<br> на консультацию и лечение<br> у стоматолога</h1>
+                <p class="offer__text">Выбери удобную дату и забронируй время консультации не выходя из дома </p>
+              </div>
+              <div class="col-xs-6 offer__height">
+                <ul class="offer__list">
+                  <li>Choos time</li>
+                  <li>Pay online</li>
+                  <li>Smile at dentist plase</li>
+                </ul>
+              </div>
+              <div class="col-xs-6 end-xs offer__height"><a onclick="modalCallBack.open()" class="order">Osta online aega säästä 20%</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>Rahvahammas on uus modernne kaasaegne hambaravi Tallinna kesklinnas KRISTIINE KESKUSE juures. Kabinet alustas töötamist 16 aastat tagasi ja aastal 2015 hakkas töötama uue konseptiga, mis pakub patsientidele kõrgkvaliteetset hambaraviteenust hinnaga, mida patsient ise soovib.</p>
+            <p>Tänapäeva hambaravi vabastab patsiendid ravi, implantatsiooni, proteesimise ja ka muude protseduuride jooksul valust. Hoiame ajaga sammu, meie hambaarstid omandavad uusi teadmisi  innovaatilises hambaravi tehnoloogias, korraldavad meister-klasse ja rahvusvahelisi konverentse, kus jagavad oma kogemusi teiste inimestega.</p>
+            <p>Meie kliinik usub, et tänapäeva hambaravi - see on hubane atmosfäär, tähelepanelik personal ja kogemustega hambaarstid. See on võimalus saada valuta, kvaliteetset ja mõistliku hinnaga proteesimist ja ravi individuaalse lähenemisega igale patsiendile.</p>
+          </div>
+        </div>
+        <div class="row advantages">
+          <div class="col-xs-2">
+            <figure><img src="img/adv/adv-1.png" alt="">
+              <p>Suurepärane asukoht</p>
+            </figure>
+          </div>
+          <div class="col-xs-2">
+            <figure><img src="img/adv/adv-2.png" alt="">
+              <p>Parkimisvõimalus maja ees</p>
+            </figure>
+          </div>
+          <div class="col-xs-2">
+            <figure><img src="img/adv/adv-3.png" alt="">
+              <p>Kindel hind, programm</p>
+            </figure>
+          </div>
+          <div class="col-xs-2">
+            <figure><img src="img/adv/adv-4.png" alt="">
+              <p>Osta aega ennen<br> ja säästä</p>
+            </figure>
+          </div>
+          <div class="col-xs-2">
+            <figure><img src="img/adv/adv-5.png" alt="">
+              <p>Üle 10 aasta kogemusi</p>
+            </figure>
+          </div>
+          <div class="col-xs-2">
+            <figure><img src="img/adv/adv-6.png" alt="">
+              <p>Rõõmsameelne meeskond</p>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="statut">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="heading dark--green">Kindel Hind</h2>
+          </div>
+          <div class="col-xs-12">
+            <p class="statut__heading--text dark--green">Kindel hind, programm tähendab, et patsient ise saab valida aega ja protseduuride tüüpi, ja kui pikkalt ta soovib olla arsti juures.</p>
+            <p class="statut__heading--text dark--green">Rahvahammas pakub oma klientidele mitte muretseda, kui suur arve tuleb koju, vaid osta hambaarsti visiit enne hambaarstile tulekut.</p>
+            <p class="statut__heading--text dark--green">Meil on pakkuda kolme eri raskuse kategooriat:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="statut__block"><img src="img/statut-1.png" alt="">
+              <p>Rahvavisiit</p>
+              <p>Rahvavisiidi patsiendid saavad abi sellistes muredes nagu:</p>
+              <ul>
+                <li>- Ülevaatused</li>
+                <li>- Täidiste panek</li>
+                <li>- Hammaste väljatõmbamised</li>
+                <li>- Röntgen diagnostika</li>
+                <li>- Juureravi</li>
+                <li>- Hind: 15 min/ 30 eurot (rohkem infot saate kategooriast„abi patsiendile”)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="statut__block"><img src="img/statut-2.png" alt="">
+              <p>Hügieeni visiit</p>
+              <p>Hügieeni visiidul patsiendid saavad abi järgmistes protseduurides:</p>
+              <ul>
+                <li>- Valgendused</li>
+                <li>- Hambakivi eemaldus</li>
+                <li>- Pärlipesu</li>
+                <li>- Hind: 15min/30 eurot  (rohkem infot saate kategooriast„abi patsiendile”)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="statut__block"><img src="img/statut-3.png" alt="">
+              <p>Proteesivisiit</p>
+              <p>Proteesivisiidi patsiendile on soovitav konsulteerida arstiga ja koostada raviplaan</p>
+              <ul>
+                <li>- Kroonid/ sillad (keraamised/metallokeraamised – laborikulud juba hinna sees)</li>
+                <li>- Laminaadid/ luminiirid</li>
+                <li>- Hind: 60min/ 250 eurot</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="consultation">
+      <div class="container">
+        <div class="row center-xs">
+          <div class="col-xs-12">
+            <p class="consultation__text">Kui te pole varem meil käinud, siis soovitame alustada hambaarsti konsultatsioonist, kus arst räägib Teile põhjalikult süsteemist ja koostab raviplaani. Konsultatsiooni hind on ainult 15 eurot ja see kestab 30 minutit.</p>
+            <p class="consultation__text--big">Konsultatsiooni aega saate broneerida telefonil</p>
+            <p class="consultation__text--big">+372 664 03 40</p>
+          </div>
+          <div class="col-xs-4">
+            <figure><img src="img/cons-1.png" alt="">
+              <p>Choose<br>TIME</p>
+            </figure>
+          </div>
+          <div class="col-xs-4">
+            <figure><img src="img/cons-2.png" alt="">
+              <p>PAY<br>ONLINE</p>
+            </figure>
+          </div>
+          <div class="col-xs-4">
+            <figure class="none"><img src="img/cons-3.png" alt="">
+              <p>SMILE at<br>DENTIST<br>PLACE</p>
+            </figure>
+          </div>
+          <div class="col-xs-12"><a onclick="modalCallBack.open()" class="order">Osta online aega säästä 20%</a></div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="heading">Teenused</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3">
+            <div class="services__block"><img src="img/services-1.png" alt="">
+              <p class="services__block__heading height">Hambahaiguste ennetamine, diagnostika</p>
+              <p class="services__block__text">Haiguse ennetamine tähendab võimalike terviseriskide vältimist. Kui hambas on juba auk, on tegemist haiguse- enamasti hambakaariese- tagajärjega</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="services__block"><img src="img/services-2.png" alt="">
+              <p class="services__block__heading height">Hambaravi</p>
+              <p class="services__block__text">Meie kliinik usub, et tänapäeva hambaravi - see on hubane atmosfäär, tähelepanelik personal ja kogemustega hambaarstid</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="services__block"><img src="img/services-3.png" alt="">
+              <p class="services__block__heading height">Juureravi</p>
+              <p class="services__block__text">Juureravi vajavad hambad, mille hambasäsi (närvid-veresooned) on pöördumatult kahjustunud.</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="services__block"><img src="img/services-4.png" alt="">
+              <p class="services__block__heading height">Valgendamine</p>
+              <p class="services__block__text">Hammaste valgendamine on muutunud üheks tavalisemaks protseduuriks hambaravi kabinettides, olles üks populaarseim teenus kosmeetilises hambaravis</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="services__block"><img src="img/services-5.png" alt="">
+              <p class="services__block__heading">Hambakirurgia</p>
+              <p class="services__block__text">Hamba eemaldamine ehk väljatõmbamine on kirurgiline protseduur, mida tehakse spetsiaalsete instrumentide abil tuimastuse all.</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="services__block"><img src="img/services-6.png" alt="">
+              <p class="services__block__heading">Hambaimplantatsioon</p>
+              <p class="services__block__text">Hambaimplantatsioon on kõige turvalisem, esteetilisem ning loomulikum viis hammaste asendamiseks.</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="services__block"><img src="img/services-7.png" alt="">
+              <p class="services__block__heading">Tehiskroonid ja sillad</p>
+              <p class="services__block__text">Taastavad ulatuslikult kahjustatud hammaste kuju ja funktsiooni peale lõikust või hamba eemaldamist</p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="services__block"><img src="img/services-8.png" alt="">
+              <p class="services__block__heading">Proteesimine</p>
+              <p class="services__block__text">Proteesimise eesmärk on taastada patsiendi hammaskond ning suuõõne võimalikult normilähedane funktsioon ja esteetika</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review">
+      <div class="container">
+        <div class="row middle-xs center-xs">
+          <div class="col-xs-12">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="row start-xs middle-xs">
+                    <div class="col-xs-4 center-xs"><img src="img/review-photo.png" alt=""></div>
+                    <div class="col-xs-8">
+                      <h3>Heading</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A incidunt deleniti mollitia dolores, aspernatur quas et, id saepe iure cumque accusamus quis ut libero, nihil. Amet explicabo eum, sequi asperiores!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="row start-xs middle-xs">
+                    <div class="col-xs-4 center-xs"><img src="img/review-photo.png" alt=""></div>
+                    <div class="col-xs-8">
+                      <h3>Heading 2</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A incidunt deleniti mollitia dolores, aspernatur quas et, id saepe iure cumque accusamus quis ut libero, nihil. Amet explicabo eum, sequi asperiores!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Pagination-->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="help">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="heading blue">Abi patsiendile</h2>
+            <ul class="help__list">
+              <li><span class="blue">1</span>. Mis juhtub, kui arsti aega ei piisa, et teha ravi lõpuni?
+                <p>Enne ravi alustamist arst räägib, mis ta jõuab ostetud aja jooksul teha. Juhul kui aega ei piisa (nt. raske hamba väljatõmbamise puhul) arst proovib ikka teha protseduuri lõpuni nii kaua, kui vaja. Vajadusel paneb arst patsiendile uue aja, mis on patsiendile tasuta.</p>
+              </li>
+              <li><span class="blue">2</span>. Mis juhtun, kui olen ostnud juhuslikult vale visiidi, nt. 15 min „Rahvavisiiti” ja probleemi lahendamiseks on vaja 30 min visiiti?
+                <p>Kui olete juba hambaarsti toolis, siis arst enne alustamist vaatab ja analüüsib protseduuri raskuse astet ja aega, mis on broneeritud. Üld juhul arst ütleb Teile hinna ja aja, mis oleks vaja protseduuri sooritamiseks.</p>
+              </li>
+              <li><span class="blue">3</span>. Mis juhtub, kui ma jään hiljaks visiidile või ei ilmunud kohale?
+                <p>Kui olete jäänud hiljaks, siis vaadatakse töögraafiku järgi, millal arst jõuaks Teid võtta või teile pannakse uus aeg. Juhul, kui mingil põhjusel patsient pole tulnud ravile broneeritud ajal (haigus, reis või muu põhjus), loeme visiidi kasutatuks. Lugege tähelepanelikult online broneerimis reegleid, enne broneeringut.</p>
+              </li>
+              <li><span class="blue">4</span>. Ma ei ole kindel, kas ma ikka säästan, kui kasutan Teie kindlat hinnasüsteemi?
+                <p>Peale igat visiiti saate kaasa väljavõtte Teie patsiendi kaardist, kus näete arstide kommentaare ja kõikide protseduuride koode ning tavalist maksumust hinnakirja järgi.</p>
+              </li>
+            </ul>
+            <p class="help__subheading">Siin on mõned näidised:</p>
+            <ul class="help__list">
+              <li>1. Patsiendil on kaks auku ülalõuas vasemal poolel. Patsient alati tahab tuimestust enne puurimist peame ka tegema röntgenpildi hamba seisukorra hindamiseks:<a id="read-more-button1" class="help__read--more"><span>Patsiendi kulud:</span></a>
+                <div id="read-more1">
+                  <p>
+                    esmane külastus 15 eurot<br>
+                    HF röntgen pilt 6 eurot<br>
+                    tuimestus 8 eurot<br>
+                    kolme pinna valguskõvastuv täidis 55 eurot<br>
+                    kahe pinna valguskõvastuv täidis 45 eurot<br>
+                    Hind kokku: 129 eurot (kulunud tööaeg 30-45 min).
+                  </p>
+                  <p>Kindla hinnaga süsteemi järgi patsient oleks ostnud nt. 30 min „Rahvavisiiti”, Internetis enne visiiti (maksumus 50 eurot) ja saanud veel arveid peale visiiti 25 eurot.</p>
+                  <p>Hind kokku 75 eurot (kulunud tööaeg 30-45 min)</p>
+                </div>
+              </li>
+              <li>2. Patsient plaanib panna keraamilised kroonid või täidised nt. 4.-6. tagahambale. Ravi teostatakse 2-3 visiidiga. Kokku umbes 4 h tööaega.<a id="read-more-button2" class="help__read--more"><span>Patsiendi kulud:</span></a>
+                <div id="read-more2">
+                  <p>
+                    esmane külastus <br>
+                    OPTG ja HF antud regioonist <br>
+                    tuimestus <br>
+                    vajalikud hammaste preparatsioonid ja jäljendid 4-6X <br>
+                    kroonide sementeerimine, oklusaalne kontroll ja hügieeni rekomendatsioonid patsiendile 4-6X <br>
+                    Hind kokku: umbes 1250-1800 eurot (3-4 tundi arsti tööaega).
+                  </p>
+                  <p>
+                    Kindla hinnaga süsteemi järgi patsient oleks ostnud nt. 4 tundi „Proteesivisiidi” ja ühe tunni hind 250 eurot. Nelja proteetilise tunniga meie arstid jõuavad teha 4-6 keraamilist/ metalokeraamilist krooni. <br>
+                    Hind kokku: 1000 eurot (kulutatud tööaeg 4 tundi). Soovitame alati eelnevalt konsulteerida arstiga tulevasest suurest tööst ja ajast, mis kulub raviks.
+                  </p>
+                </div>
+              </li>
+              <li>3. Näiteks Teil on soov valgendada hambaid.<a id="read-more-button3" class="help__read--more"><span>Patsiendi kulud:</span></a>
+                <div id="read-more3">
+                  <p>valgendus (Beyond) 250 eurot (60 min)</p>
+                  <p>Kindla hinnaga süsteemi järgi patsient oleks ostnud nt. 60 min „Hügieenivisiiti”. Interneti kaudu enne tulekut (maksumus 100 eurot) ja pannud kommentaariks „BRONEERISIN AEGA HAMMASTE VALGENDAMISEKS”</p>
+                  <p>Hind kokku: 100 eurot (kulutatud tööaeg 60 min)</p>
+                </div>
+              </li>
+              <li>4. Kuidas saate aidata, kui peale ravi algab väljakannatamatu valu või muu komplikatsioon?
+                <p>Meie telefoni liinid töötavad igapäev 8.00 – 20.00. Pakume alati visiiti tööpäeva jooksul.</p>
+              </li>
+              <li>5. Mis garantii tingimused Teil on?
+                <p>Rahvahammas pakub oma klientidele 2 aastat garantiid plommidele ja 5 aastat garantiid kroonidele ja silladele.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact__bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="heading white">KONTAKT</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row contact__block">
+          <div class="col-xs-6">
+            <p class="contact__text">MEIE AADRESS</p>
+            <p class="contact__text">Kotkapoja 2 A, Tallinn, Estonia</p>
+            <p class="contact__text">KONTAKT</p>
+            <p class="contact__text">Tel.: <span class="contact__text__phone">+(372) 664 03 40</span>      24/7</p>
+          </div>
+          <div class="col-xs-6">
+            <p class="contact__text">E-mail: <a href="#">info@rahvahammas.ee</a></p>
+            <p class="contact__text">LAHTIOLEKUAJAD</p>
+            <p class="contact__text">E-R 10:00 - 18:00</p>
+            <p class="contact__text">KIRJUTAGE MEILE</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>SISESTA</p>
+          </div>
+        </div>
+      </div>
+      <div id="map"></div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row middle-xs">
+          <div class="col-xs-8">
+            <p class="footer__text">© 2016 Danmed OÜ       Tegevusluba: XXXXX</p>
+            <p class="footer__text">Tallinn, Kotkapja 2 A, 10129  tel.: +(372) 664 03 40       <a href="" class="footer__email">info@rahvahammas.ee</a></p>
+          </div>
+          <div class="col-xs-4 end-xs"><a href="#" class="footer__link"><i class="icon-google-plus"></i></a><a href="#" class="footer__link"><i class="icon-facebook"></i></a><a href="#" class="footer__link"><i class="icon-twitter"></i></a><a href="#" class="footer__link"><i class="icon-instagram"></i></a></div>
+        </div>
+      </div>
+    </footer>
+    <div style="display: none;" class="call--back--modal">
+      <form class="form">
+        <input type="text" placeholder="Имя" name="name" required class="form__input">
+        <input type="tel" placeholder="Телефон" name="phone" required class="form__input">
+        <input type="email" placeholder="E-mail" name="email" required class="form__input">
+        <input type="submit" value="Отправить" class="form__button order">
+      </form>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNcLZ6vMI8kKkJMRdU1sahNJKPs3RrPY&amp;callback=initMap" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+    <script src="js/tingle.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
